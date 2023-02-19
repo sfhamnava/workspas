@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attire Home</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+ 
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0 " href="index.html">
+            <i class="bi bi-bag-dash-fill"></i>
+ 
+            <span class="text-uppercase fw-lightyer ms-2 ">Attire</span>
+        </a>
+
+        <div class="order-lg-2 nav-btns">
+            <button type="button" class="btn position-relative">
+                <i class="bi bi-cart-fill"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+            </button>
+            <button type="button" class="btn position-relative">
+                <i class="bi bi-heart-fill"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+            </button>
+            <button type="button" class="btn position-relative">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+<!-- button -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#header">home</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#collection">collection</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#speical">speical</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#about">about</a>
+            </li>
+            <li class="nav-item px-2 py-2 border-0">
+              <a class="nav-link text-uppercase text-dark" href="#popular">popular</a>
+            </li>
+          </ul>
+        </div>
+       
+
+    </div>
+</nav>
+
+<!-- end of navbar -->
+
+<!-- header -->
+<div id="header" class="vh-100 carousel slide" data-bs-ride="carousel">
+  <div class=" text-center carousel-inner">
+    <div class="carousel-item active">
+      <h2 class="text-capitalize text-black">best collection</h2>
+      <h1 class="text-uppercase py-2 fw-bold text-black">new arrivals</h1>
+      <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+    </div>
+
+    <div class="text-center carousel-item">
+      <h2 class="text-capitalize text-black">best price & offer</h2>
+      <h1 class="text-uppercase py-2 fw-bold text-black">season</h1>
+      <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+    </div>
+   
+  </div>
+</div>
+
+
+   <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide = "prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide = "prev">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</header>
+<!-- end header -->
+
+<!-- collection -->
+
+<section id="collection" class="py-5">
+  <div class="container">
+    <div class="title text-center">
+      <h2 class="position-relative d-inline-block">New Collection</h2>
+    </div>
+
+    <div class="row">
+      <div class="d-flex flex-wrap justify-content-center mt-5">
+        <button type="button" class="btn m-2 text-dark active-filter-btn">All</button>
+        <button type="button" class="btn m-2 text-dark">Best Sellers</button>
+        <button type="button" class="btn m-2 text-dark">Featured</button>
+        <button type="button" class="btn m-2 text-dark">New Arrival</button>
+      </div>
+
+      <div class="collection-list">
+        <div class="">
+          <div class="collection-img">
+        <img src="imge/10.jpeg" alt="">
+            <span class="position-absolute">sale</span>
+          </div>
+            
+           <div class="">
+             <div class="rating">
+              <span><i class="fa fa-star"></i></span>
+              <span><i class="fa fa-star"></i></span>
+              <span><i class="fa fa-star"></i></span>
+              <span><i class="fa fa-star"></i></span>
+              <span><i class="fa fa-star"></i></span>
+       
+             </div>
+             <p class="">gray shirt</p>
+             <span class="">$ 45.50</span>
+           </div>    
+
+        </div>
+      </div>
+       
+    </div>
+  </div>
+</section>
+<!-- end collection -->
+
+
+<!-- scrept -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
